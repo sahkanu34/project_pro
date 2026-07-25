@@ -1,6 +1,6 @@
 // src/components/Testimonials.tsx
 import { motion } from 'framer-motion'
-import { Link, Link2 } from 'lucide-react'
+import { Link2 } from 'lucide-react'
 import SectionHeading from './SectionHeading'
 
 interface Testimonial {
