@@ -6,6 +6,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import TechStack from './components/TechStack'
 import Credentials from './components/Credentials'
+import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -20,6 +21,7 @@ export default function App() {
       <Projects />
       <TechStack />
       <Credentials />
+      <Testimonials />
       <Contact />
       <Footer />
     </div>

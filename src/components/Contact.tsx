@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <section id="contact" className="border-b border-line">
       <div className="mx-auto max-w-5xl px-6 py-24 text-center">
-        <p className="font-mono text-[12px] uppercase tracking-[0.16em] text-signal">05 — Get in touch</p>
+        <p className="font-mono text-[12px] uppercase tracking-[0.16em] text-signal">06 — Get in touch</p>
         <h2 className="mx-auto mt-4 max-w-2xl font-display text-[36px] font-medium leading-tight tracking-tight text-ink md:text-[46px]">
           Let's build something that works.
         </h2>

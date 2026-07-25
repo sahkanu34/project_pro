@@ -40,7 +40,7 @@ export const profile = {
   github: 'https://github.com/sahkanu34',
   location: 'Kathmandu, Nepal',
   summary:
-    'Machine Learning Engineer and AI Researcher with a proven track record of designing, developing, and deploying enterprise-ready AI systems. Expert in architecting advanced RAG pipelines, multi-agent AI systems (LangGraph, CrewAI), and custom LLM fine-tuning workflows using parameter-efficient methods (QLoRA/LoRA).',
+    'Machine Learning Engineer and AI Engineer with a proven track record of designing, developing, and deploying enterprise-ready AI systems. Expert in architecting advanced RAG pipelines, multi-agent AI systems (LangGraph, CrewAI), and custom LLM fine-tuning workflows using parameter-efficient methods (QLoRA/LoRA).',
 }
 
 export const focusAreas = [
@@ -51,7 +51,7 @@ export const focusAreas = [
 ]
 
 export const competencies = [
-  'Machine Learning', 'Deep Learning', 'Computer Vision', 'Medical Image Analysis',
+  'Machine Learning', 'Deep Learning', 'Computer Vision', 'Unsloth', 'Transformers', 'TRL', 'Hugging Face', 'PyTorch', 'TensorFlow', 'Scikit-learn', 'YOLO',
   'Transfer Learning', 'Model Optimization', 'Retrieval-Augmented Generation',
   'Generative AI', 'MLOps', 'CI/CD', 'A/B Testing', 'Hypothesis Testing','LoRA/QLoRA', 'PEFT', 'LangChain', 'LangGraph', 'CrewAI', 'FastAPI', 'Docker', 'Kubernetes',
 ]

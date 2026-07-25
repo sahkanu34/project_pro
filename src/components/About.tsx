@@ -25,8 +25,8 @@ export default function About() {
             <p>
               My research background is in medical image analysis at NAAMII's MAPMED Lab, working
               with 3D volumetric CT/MRI data and deep learning models for automated grading tasks.
-              Outside research, I build backend-heavy AI systems — RAG APIs, agent orchestration,
-              document intelligence — with FastAPI, Docker, and vector databases, aiming for things
+              Outside research, I build backend-heavy AI systems, RAG APIs, agent orchestration,
+              document intelligence with FastAPI, Docker, and vector databases, aiming for things
               that are reproducible and easy to hand off.
             </p>
           </div>
