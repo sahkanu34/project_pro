@@ -19,7 +19,7 @@ export default function Contact() {
             <Mail size={15} /> Email me
           </a>
           <a
-            href="/Suraj_Kanu_AIEng_ATS_Resume.pdf"
+            href="/Suraj_Kanu_ATS_Resume_AIEng (2).pdf"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 border border-ink px-6 py-3 font-mono text-[13px] text-ink transition-colors hover:border-signal hover:text-signal"
