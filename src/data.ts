@@ -122,13 +122,12 @@ export const projects: Project[] = [
   stack:['CrewAI','LLMs','Pydantic','Python','pdfplumber','Tesseract OCR'],
   summary:'Provenance-aware multi-agent document intelligence system that extracts, cross-validates, and reconciles conflicting compliance data from manufacturer PDFs.',
   detail:[
-  'Multi-agent CrewAI pipeline with independent document extractors, field-level reconciliation, and automated compliance report generation.',
-  'Independent extraction agents process manufacturer datasheets separately to prevent cross-document anchoring and preserve source-specific evidence.',
-  'Field-by-field reconciliation engine classifies extracted specifications as agree, conflict, document-only, or not-established while preserving both conflicting values.',
-  'Hybrid PDF ingestion using pdfplumber text-layer and table extraction with automatic Tesseract OCR fallback for scanned or unreliable documents.',
-  'Strongly-typed Pydantic schemas provide structured extraction, provenance tracking, extraction-method metadata, and confidence-aware outputs.',
-  'Source-traceability framework links extracted compliance fields back to their originating document and extraction method for auditability.',
-  'Structured outputs include machine-readable JSON reconciliation artifacts and a human-readable Markdown compliance draft for import and review workflows.'
+  'Built a multi-agent CrewAI pipeline with independent document extractors to extract, cross-validate, and reconcile conflicting compliance data from manufacturer PDFs.',
+  'Implemented source-specific PDF extraction using pdfplumber for text and tables with automatic Tesseract OCR fallback, preserving extraction method and source provenance.',
+  'Developed a strongly-typed Pydantic reconciliation layer that classifies fields as agree, conflict, document-only, or not-established while preserving conflicting source values.',
+  'Implemented field-level normalization and cross-document reconciliation across product specifications, manufacturer information, test evidence, labeling, and importer documentation.',
+  'Designed a provenance-aware confidence framework linking extracted fields to their originating document, page, extraction method, and confidence level for improved traceability and auditability.',
+  'Generated machine-readable JSON reconciliation artifacts and human-readable Markdown compliance reports, transforming unstructured manufacturer documentation into review-ready compliance intelligence.'
   ],
   link:{label:'GitHub',url:'https://github.com/sahkanu34/Compliance_Agent'}, // TODO: replace with exact repo URL
   },
