@@ -117,19 +117,20 @@ export const projects: Project[] = [
     link: { label: 'GitHub', url: 'https://github.com/sahkanu34/RAG_BACKEND_API' }, // TODO: replace with exact repo URL
   },
   {
-    id: 'compliance-ai',
-    title: 'Agentic AI Compliance Intelligence System',
-    stack: ['LangGraph', 'GPT-4o', 'Pydantic', 'FastAPI'],
-    summary: 'Multi-agent document intelligence system transforming unstructured manufacturer PDFs into audit-ready compliance reports.',
-    detail: [
-      '5-stage agentic pipeline: extraction → normalization → reconciliation → compliance mapping → report generation.',
-      'GPT-4o powered cross-document reconciliation engine detects spec conflicts with confidence-scored validation.',
-      'Strongly-typed extraction layer using Pydantic v2 schemas for deterministic structuring of technical specification data.',
-      'Hybrid PDF ingestion using PyMuPDF + pdfplumber for complex layouts, tables, and semi-scanned documents.',
-      'Full source-traceability framework linking every extracted field back to originating documents.',
-      'Structured outputs: JSON extraction artifacts, reconciliation reports, NEPQA 2025-aligned compliance Markdown.',
-    ],
-    link: { label: 'GitHub', url: 'https://github.com/sahkanu34/AI_Agent_Compliance_API' }, // TODO: replace with exact repo URL
+  id:'compliance-ai',
+  title:'Agentic AI Compliance Intelligence System',
+  stack:['CrewAI','LLMs','Pydantic','Python','pdfplumber','Tesseract OCR'],
+  summary:'Provenance-aware multi-agent document intelligence system that extracts, cross-validates, and reconciles conflicting compliance data from manufacturer PDFs.',
+  detail:[
+  'Multi-agent CrewAI pipeline with independent document extractors, field-level reconciliation, and automated compliance report generation.',
+  'Independent extraction agents process manufacturer datasheets separately to prevent cross-document anchoring and preserve source-specific evidence.',
+  'Field-by-field reconciliation engine classifies extracted specifications as agree, conflict, document-only, or not-established while preserving both conflicting values.',
+  'Hybrid PDF ingestion using pdfplumber text-layer and table extraction with automatic Tesseract OCR fallback for scanned or unreliable documents.',
+  'Strongly-typed Pydantic schemas provide structured extraction, provenance tracking, extraction-method metadata, and confidence-aware outputs.',
+  'Source-traceability framework links extracted compliance fields back to their originating document and extraction method for auditability.',
+  'Structured outputs include machine-readable JSON reconciliation artifacts and a human-readable Markdown compliance draft for import and review workflows.'
+  ],
+  link:{label:'GitHub',url:'https://github.com/sahkanu34/Compliance_Agent'}, // TODO: replace with exact repo URL
   },
 ]
 
